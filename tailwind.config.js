@@ -3,5 +3,8 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [],
+  daisyui: {
+    themes: ["cupcake"],
+  },
+  plugins: [require("@tailwindcss/typography"), require("daisyui")],
 }
